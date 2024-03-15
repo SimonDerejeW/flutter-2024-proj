@@ -24,8 +24,8 @@ The restaurant rating system allows users to comment on restaurants. Moreover, i
   - Commenting feature for sharing opinions  
   - Comprehensive view all comments on restaurants
   - Update and Delete comments
-  - Update and Delete restaurants
 ###   Restaurant Owners Features:
+  - Update and Delete restaurants
   - Feature that enables restaurants to post their dining establishment`
 
 
