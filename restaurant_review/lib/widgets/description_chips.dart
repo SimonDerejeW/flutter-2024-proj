@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:restaurant_review/core/theme/app_pallete.dart';
 class RestaurantChips extends StatelessWidget {
 
   final String labelText;
@@ -16,7 +17,7 @@ class RestaurantChips extends StatelessWidget {
                 fontSize: 12
               ),
             ),
-            backgroundColor: Colors.grey,
+            backgroundColor: AppPallete.greyColor,
             side: BorderSide.none,
           );       
   }

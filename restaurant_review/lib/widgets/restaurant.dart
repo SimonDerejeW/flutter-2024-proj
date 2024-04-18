@@ -36,7 +36,9 @@ class Restaurant extends StatelessWidget {
             padding: const EdgeInsets.only(left: 9),
             child: Text(
               restaurantName,
-              style: Theme.of(context).textTheme.displayMedium
+              style: Theme.of(context).textTheme.displayMedium!.copyWith(
+                color: Colors.black
+              )
             ),
           ),
 

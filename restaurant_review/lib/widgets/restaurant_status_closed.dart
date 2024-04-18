@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:restaurant_review/core/theme/app_pallete.dart';
 class RestaurantClosed extends StatelessWidget {
   const RestaurantClosed({super.key});
 
@@ -7,7 +8,7 @@ class RestaurantClosed extends StatelessWidget {
     return const Text(
       "Closed",
       style: TextStyle(
-        color: Colors.red,
+        color: AppPallete.redColor,
         fontWeight: FontWeight.bold,
       )
     );

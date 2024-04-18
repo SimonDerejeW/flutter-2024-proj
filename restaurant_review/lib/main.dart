@@ -1,15 +1,9 @@
 
 
 import 'package:flutter/material.dart';
-import '/pages/home_page.dart';
-// import '/pages/modal_form.dart';
-import '/theme/app_theme.dart';
-// import '/widgets/description_chips.dart';
-// import '/widgets/restaurant.dart';
-// import '/widgets/search_widget.dart';
-// import '/widgets/restaurant_home_image.dart';
-// import '/widgets/restaurant_statue_open.dart';
-// import '/widgets/restaurant_status_closed.dart';
+import 'package:restaurant_review/core/theme/theme.dart';
+import 'package:restaurant_review/pages/home_page.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -21,9 +15,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: appTheme,
+      theme: AppTheme.LightThemeMode,
       home: Scaffold(
-        appBar: AppBar(),
+        // appBar: AppBar(),
         
         body: const ReviewHome(),
         
