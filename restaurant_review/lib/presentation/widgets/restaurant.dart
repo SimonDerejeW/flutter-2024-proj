@@ -61,7 +61,7 @@ class Restaurant extends StatelessWidget {
 
           //Chips
           Padding(
-            padding: EdgeInsets.only(left: 5),
+            padding: const EdgeInsets.only(left: 3),
             child: Wrap(
               children: chipsList.map((labelText) {
                 return Padding(
