@@ -1,10 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:restaurant_review/presentation/widgets/restaurant.dart';
 // import '/models/restaurant_model.dart';
-import '/widgets/restaurant.dart';
+
+import '../widgets/search_widget.dart';
 import '/data/restaurant_data.dart';
-import '/widgets/search_widget.dart';
+
 
 class ReviewHome extends StatelessWidget {
   const ReviewHome({super.key});

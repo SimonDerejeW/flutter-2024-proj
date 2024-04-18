@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:restaurant_review/core/theme/theme.dart';
-import 'package:restaurant_review/pages/home_page.dart';
+import 'package:restaurant_review/presentation/screens/home_page.dart';
 
 
 void main() {

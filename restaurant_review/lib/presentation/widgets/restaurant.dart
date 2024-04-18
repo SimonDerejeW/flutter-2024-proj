@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import '/widgets/description_chips.dart';
-import '/widgets/restaurant_home_image.dart';
-import '/widgets/restaurant_statue_open.dart';
-import '/widgets/restaurant_status_closed.dart';
+
+import 'package:restaurant_review/presentation/widgets/description_chips.dart';
+import 'package:restaurant_review/presentation/widgets/restaurant_home_image.dart';
+import 'package:restaurant_review/presentation/widgets/restaurant_statue_open.dart';
+import 'package:restaurant_review/presentation/widgets/restaurant_status_closed.dart';
+
 // import '../data/chips_data.dart';
 
 class Restaurant extends StatelessWidget {
