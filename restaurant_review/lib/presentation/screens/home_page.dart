@@ -15,14 +15,14 @@ class ReviewHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SearchWidget(),
+        const SearchWidget(),
         const SizedBox(
           height: 15,
         ),
         Expanded(
           child: Container(
               padding: const EdgeInsets.only(left: 10),
-              child: RestaurantGrid()),
+              child: const RestaurantGrid()),
         ),
       ],
     );
@@ -38,9 +38,9 @@ class RestaurantGrid extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return GridView.builder(
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2, // Number of columns in the grid
-        crossAxisSpacing: 8, // Spacing between columns
+        crossAxisSpacing: 5, // Spacing between columns
         mainAxisSpacing: 10,
         childAspectRatio: 0.7,
 
