@@ -15,11 +15,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: AppTheme.LightThemeMode,
-      home: Scaffold(
+      home: const Scaffold(
         // appBar: AppBar(),
         
-        body: const ReviewHome(),
+        body: ReviewHome(),
         
       ),
     );
