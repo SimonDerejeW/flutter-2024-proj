@@ -7,6 +7,7 @@ import 'package:restaurant_review/presentation/screens/Restaurant_page.dart';
 import 'package:restaurant_review/presentation/screens/bottom_nav.dart';
 import 'package:restaurant_review/presentation/screens/home_page.dart';
 import 'package:restaurant_review/presentation/screens/login_in_page.dart';
+import 'package:restaurant_review/presentation/screens/search_page.dart';
 
 
 void main() {
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       home: BottomNav(),
       routes: {
         '/firstpage' : (context) => ReviewHome(),
-        '/searchpage' : (context) => LogInPage(),
+        '/searchpage' : (context) => SearchPage(),
         '/profilepage' :(context) => ProfilePage(),
         "/restaurantpage" :(context) => RestaurantPage()
       },

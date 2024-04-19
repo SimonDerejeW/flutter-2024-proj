@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:restaurant_review/presentation/screens/Profile_page.dart';
 import 'package:restaurant_review/presentation/screens/home_page.dart';
 import 'package:restaurant_review/presentation/screens/login_in_page.dart';
+import 'package:restaurant_review/presentation/screens/search_page.dart';
 class BottomNav extends StatefulWidget {
   const BottomNav({super.key});
 
@@ -21,7 +22,7 @@ class _BottomNavState extends State<BottomNav> {
 
   List _pages = [
     ReviewHome(),
-    LogInPage(),
+    SearchPage(),
     ProfilePage()
   ];
 

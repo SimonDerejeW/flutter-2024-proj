@@ -36,8 +36,10 @@ class RestaurantPage extends StatelessWidget {
                           ),
                           Text(
                             'Romina Restaurant',
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 18),
+                            style: Theme.of(context).textTheme.displayMedium!.copyWith(
+                color: Colors.black,
+                fontSize: 20
+              )
                           ),
                         ],
                       ),
@@ -93,7 +95,7 @@ class RestaurantPage extends StatelessWidget {
                   height: 20,
                 ),
                 Text(
-                    'ldsakalsdjlasdfalfjlaksjfaskjsioasiajoasjjasodifjaofjoaijaiojasojfoasfoasdjfoiajfoajsdfoajofjaojfoaisjfioajsofijaoidjfoiajdfoiajoifjaos'),
+                    'Proin eget sollicitudin mauris. Phasellus imperdiet est in lectus imperdiet fringilla. Vivamus ultrices eget ligula sed placerat. Curabitur scelerisque massa eu odio tempor convallis ac porta diam. Donec nisl nunc, lobortis ac nisi vitae, mollis finibus est.'),
                 Container(
                     margin: EdgeInsets.only(bottom: 20, top: 5),
                     child: Text(
@@ -107,23 +109,30 @@ class RestaurantPage extends StatelessWidget {
                   ),
                   Text(
                     'Reviews',
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                    style: Theme.of(context).textTheme.displayMedium!.copyWith(
+                color: Colors.black,
+                fontSize: 18
+              ),
                   )
                 ]),
                 Comment(
                     user_info: UserTile(
                         name: 'Darrow Lykos', date: 'Nov 1, 2023', image: ''),
                     comment:
-                        'ldsakalsdjlasdfalfjlaksjfaskjsioasiajoasjjasodifjaofjoaijaiojasojfoasfoasdjfoiajfoajsdfoajofjaojfoaisjfioajsofijaoidjfoiajdfoiajoifjaos'),
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis lorem a ultrices rhoncus. Nam efficitur sapien et tincidunt laoreet. Nulla non ante lacus. Morbi lorem mauris, posuere et risus ac, accumsan fringilla orci. Curabitur id sem in risus accumsan elementum.'),
                 Comment(
                     user_info: UserTile(
                         name: 'Darrow Lykos', date: 'Nov 1, 2023', image: ''),
                     comment:
-                        'ldsakalsdjlasdfalfjlaksjfaskjsioasiajoasjjasodifjaofjoaijaiojasojfoasfoasdjfoiajfoajsdfoajofjaojfoaisjfioajsofijaoidjfoiajdfoiajoifjaos'),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: [
-                    FloatingActionButton(
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis lorem a ultrices rhoncus. Nam efficitur sapien et tincidunt laoreet. Nulla non ante lacus. Morbi lorem mauris, posuere et risus ac, accumsan fringilla orci. Curabitur id sem in risus accumsan elementum.'),
+                
+              ],
+            ),
+          )
+        ])),
+      ),
+
+    floatingActionButton: FloatingActionButton(
                       shape: CircleBorder(),
                       child: Container(
                         width: 60,
@@ -140,14 +149,8 @@ class RestaurantPage extends StatelessWidget {
                             ])),
                       ),
                       onPressed: () {},
-                    )
-                  ],
-                )
-              ],
-            ),
-          )
-        ])),
-      ),
-    );
+                    ),
+    )
+    ;
   }
 }

@@ -53,7 +53,7 @@ class RestaurantGrid extends StatelessWidget {
         crossAxisCount: 2, // Number of columns in the grid
         crossAxisSpacing: 3, // Spacing between columns
         mainAxisSpacing: 10,
-        childAspectRatio: 0.65,
+        childAspectRatio: 0.7,
 
       ),
 

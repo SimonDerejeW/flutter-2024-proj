@@ -23,15 +23,15 @@ List<RestaurantModel> restaurantData = [
     status: "open",
     chipsList: ["Italian"]),
   RestaurantModel(
-    imagePath: "assets/pasta.jpg",
-    restaurantName: "Bella Pasta",
-    status: "open",
-    chipsList: ["Italian"]),
+    imagePath: "assets/rest.jpg",
+    restaurantName: "Romina",
+    status: "closed",
+    chipsList: ["Pizza"]),
   RestaurantModel(
-    imagePath: "assets/pasta.jpg",
-    restaurantName: "Bella Pasta",
-    status: "open",
-    chipsList: ["Italian"]),
+    imagePath: "assets/burger.jpg",
+    restaurantName: "Beta Burger",
+    status: "closed",
+    chipsList: ["Burger"]),
   RestaurantModel(
     imagePath: "assets/pasta.jpg",
     restaurantName: "Bella Pasta",
