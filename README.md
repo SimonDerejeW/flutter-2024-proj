@@ -28,6 +28,6 @@ The restaurant rating system allows users to comment on restaurants. Moreover, i
   - Update restaurants
   - Feature that enables restaurants to post their dining establishment`
 ###   Admin Features
-  - Deletes User, Owner, Restaurant and Comment
+  - Has the ability to ban/restrict different users for bad behaviour
 
 
