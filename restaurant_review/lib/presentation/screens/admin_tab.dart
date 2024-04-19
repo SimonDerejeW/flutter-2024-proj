@@ -34,7 +34,7 @@ class _AdminTabState extends State<AdminTab> {
       child: Scaffold(
         appBar: AppBar(
           title: const Text(
-            "control panel",
+            "Control Panel",
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 20,
