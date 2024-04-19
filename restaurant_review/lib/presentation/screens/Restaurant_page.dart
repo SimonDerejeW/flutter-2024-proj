@@ -133,6 +133,7 @@ class RestaurantPage extends StatelessWidget {
       ),
 
     floatingActionButton: FloatingActionButton(
+                      onPressed: (){},
                       shape: CircleBorder(),
                       child: Container(
                         width: 60,
@@ -141,16 +142,18 @@ class RestaurantPage extends StatelessWidget {
                           Icons.add,
                           size: 40,
                         ),
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                             shape: BoxShape.circle,
-                            gradient: LinearGradient(colors: [
-                              Color.fromARGB(255, 255, 136, 0),
-                              Color.fromARGB(255, 249, 196, 99)
-                            ])),
+                            gradient: RadialGradient(
+                              colors: [
+                                Color.fromARGB(255, 255, 189, 74),
+                                Color.fromARGB(255, 248, 157, 72),
+                              ],
+                            )),
                       ),
-                      onPressed: () {},
-                    ),
-    )
-    ;
+                      ),
+                      
+                    );
+    
   }
 }
