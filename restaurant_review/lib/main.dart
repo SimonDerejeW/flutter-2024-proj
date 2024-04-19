@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:restaurant_review/core/theme/theme.dart';
 import 'package:restaurant_review/presentation/screens/Profile_page.dart';
 import 'package:restaurant_review/presentation/screens/Restaurant_page.dart';
+import 'package:restaurant_review/presentation/screens/admin_tab.dart';
 import 'package:restaurant_review/presentation/screens/bottom_nav.dart';
 import 'package:restaurant_review/presentation/screens/home_page.dart';
 import 'package:restaurant_review/presentation/screens/search_page.dart';
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         '/searchpage' : (context) => SearchPage(),
         '/profilepage' :(context) => ProfilePage(),
         "/restaurantpage" :(context) => RestaurantPage(),
+        '/adminprofile' :(context) => AdminTab(),
         "/entry" :(context) => BottomNav()
       },
     );
