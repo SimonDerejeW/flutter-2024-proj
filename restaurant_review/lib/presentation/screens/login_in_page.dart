@@ -70,6 +70,7 @@ class _LogInPageState extends State<LogInPage> {
                     if (formKey.currentState!.validate()) {
                       print("Sign In");
                     }
+                    Navigator.pushNamed(context, '/entry');
                   }),
               const SizedBox(
                 height: 20,

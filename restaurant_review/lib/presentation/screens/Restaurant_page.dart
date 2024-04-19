@@ -34,13 +34,11 @@ class RestaurantPage extends StatelessWidget {
                           SizedBox(
                             width: 40,
                           ),
-                          Text(
-                            'Romina Restaurant',
-                            style: Theme.of(context).textTheme.displayMedium!.copyWith(
-                color: Colors.black,
-                fontSize: 20
-              )
-                          ),
+                          Text('Romina Restaurant',
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .displayMedium!
+                                  .copyWith(color: Colors.black, fontSize: 20)),
                         ],
                       ),
                       SizedBox(
@@ -109,10 +107,10 @@ class RestaurantPage extends StatelessWidget {
                   ),
                   Text(
                     'Reviews',
-                    style: Theme.of(context).textTheme.displayMedium!.copyWith(
-                color: Colors.black,
-                fontSize: 18
-              ),
+                    style: Theme.of(context)
+                        .textTheme
+                        .displayMedium!
+                        .copyWith(color: Colors.black, fontSize: 18),
                   )
                 ]),
                 Comment(
@@ -125,35 +123,31 @@ class RestaurantPage extends StatelessWidget {
                         name: 'Darrow Lykos', date: 'Nov 1, 2023', image: ''),
                     comment:
                         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis lorem a ultrices rhoncus. Nam efficitur sapien et tincidunt laoreet. Nulla non ante lacus. Morbi lorem mauris, posuere et risus ac, accumsan fringilla orci. Curabitur id sem in risus accumsan elementum.'),
-                
               ],
             ),
           )
         ])),
       ),
-
-    floatingActionButton: FloatingActionButton(
-                      onPressed: (){},
-                      shape: CircleBorder(),
-                      child: Container(
-                        width: 60,
-                        height: 60,
-                        child: Icon(
-                          Icons.add,
-                          size: 40,
-                        ),
-                        decoration: const BoxDecoration(
-                            shape: BoxShape.circle,
-                            gradient: RadialGradient(
-                              colors: [
-                                Color.fromARGB(255, 255, 189, 74),
-                                Color.fromARGB(255, 248, 157, 72),
-                              ],
-                            )),
-                      ),
-                      ),
-                      
-                    );
-    
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        shape: CircleBorder(),
+        child: Container(
+          width: 60,
+          height: 60,
+          child: Icon(
+            Icons.add,
+            size: 40,
+          ),
+          decoration: const BoxDecoration(
+              shape: BoxShape.circle,
+              gradient: RadialGradient(
+                colors: [
+                  Color.fromARGB(255, 255, 189, 74),
+                  Color.fromARGB(255, 248, 157, 72),
+                ],
+              )),
+        ),
+      ),
+    );
   }
 }

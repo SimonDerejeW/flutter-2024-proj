@@ -8,6 +8,7 @@ import 'package:restaurant_review/presentation/screens/bottom_nav.dart';
 import 'package:restaurant_review/presentation/screens/home_page.dart';
 import 'package:restaurant_review/presentation/screens/login_in_page.dart';
 import 'package:restaurant_review/presentation/screens/search_page.dart';
+import 'package:restaurant_review/presentation/screens/sign_up_page.dart';
 
 
 void main() {
@@ -22,12 +23,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme.LightThemeMode,
-      home: BottomNav(),
+      home: SignUpPage(),
       routes: {
         '/firstpage' : (context) => ReviewHome(),
         '/searchpage' : (context) => SearchPage(),
         '/profilepage' :(context) => ProfilePage(),
-        "/restaurantpage" :(context) => RestaurantPage()
+        "/restaurantpage" :(context) => RestaurantPage(),
+        "/entry" :(context) => BottomNav()
       },
     );
   }

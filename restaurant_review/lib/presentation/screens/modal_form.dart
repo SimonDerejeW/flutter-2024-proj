@@ -116,7 +116,7 @@ class Modal extends StatelessWidget {
                     child: ElevatedButton(
                       onPressed: () {},
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color.fromRGBO(228, 158, 38, 1),
+                        backgroundColor: Color.fromARGB(255, 245, 149, 24),
                         shadowColor: Colors.orange,
                         padding: const EdgeInsets.symmetric(
                             vertical: 12.0, horizontal: 32.0),
