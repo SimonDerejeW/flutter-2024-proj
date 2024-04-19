@@ -66,7 +66,7 @@ class Restaurant extends StatelessWidget {
               children: chipsList.map((labelText) {
                 return Padding(
                   padding: const EdgeInsets.only(
-                      right: 8.0), // Add spacing between chips
+                      right: 1.0), // Add spacing between chips
                   child: RestaurantChips(
                     labelText: labelText,
                   ),
