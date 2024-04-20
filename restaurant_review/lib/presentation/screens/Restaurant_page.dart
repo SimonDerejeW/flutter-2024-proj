@@ -1,9 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:restaurant_review/presentation/widgets/dialog_box.dart';
 import '../widgets/list_tile.dart';
 import '../widgets/comments.dart';
 import '../widgets/user_tile.dart';
 
-class RestaurantPage extends StatelessWidget {
+class RestaurantPage extends StatefulWidget {
+  @override
+  State<RestaurantPage> createState() => _RestaurantPageState();
+}
+
+class _RestaurantPageState extends State<RestaurantPage> {
+  void cancelTask(){
+      Navigator.of(context).pop();
+  }
+
+  void createNewComment (){
+    showDialog(
+      context: context, 
+      builder: (context) {
+        return DialogBox(
+          onCancel: cancelTask,
+        );
+      },);
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
       body: SizedBox(
@@ -129,7 +149,7 @@ class RestaurantPage extends StatelessWidget {
         ])),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: createNewComment,
         shape: CircleBorder(),
         child: Container(
           width: 60,
